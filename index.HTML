@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carte Thermique</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1 id="title">Carte Thermique des Températures Mondiales</h1>
+        <p id="description">Variation des températures globales de 1753 à 2015</p>
+    </header>
+    <div id="chart-container">
+        <svg id="heatmap"></svg>
+        <div id="tooltip"></div>
+    </div>
+    <svg id="legend"></svg>
+    <footer>
+        <p>Données provenant de FreeCodeCamp | Conçu avec D3.js</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
